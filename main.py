@@ -45,7 +45,7 @@ def get_assistant_chain():
       )
     )
 
-  loader = TextLoader("transcription.txt")
+  loader = TextLoader("input.txt")
   text_documents = loader.load()
 
   text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=100)

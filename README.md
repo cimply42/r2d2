@@ -23,8 +23,8 @@ OPENAI_API_KEY=
 PINECONE_API_KEY=
 ```
 
-- Create a `transcription.txt` file in the same root directiory and add your proprietary data
-- Run with command `python main.py`. Once the server starts, you can send post requests with the following json payload
+- Create a `input.txt` file in the same root directiory and add your proprietary data
+- Run with command `python main.py`. Once the server starts, you can send post requests on port 5000 with the following json payload
 
 ```
 {
